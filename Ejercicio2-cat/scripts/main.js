@@ -24,7 +24,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
-//let fs= require('fs');
 let parametro = process.argv[2];
 fs.readFile(parametro, "utf-8", (error, data) => {
     if (error) {
@@ -33,4 +32,4 @@ fs.readFile(parametro, "utf-8", (error, data) => {
     console.log(data);
 });
 //usar con npm start ruta
-// ejemplo npm start ./Hola.txt
+// ejemplo npm start Hola.txt

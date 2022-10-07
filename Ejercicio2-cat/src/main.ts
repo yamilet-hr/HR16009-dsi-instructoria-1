@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 
-//let fs= require('fs');
 let parametro: string= process.argv[2];
 
 fs.readFile(parametro, "utf-8", (error,data)=>{
@@ -13,6 +12,6 @@ fs.readFile(parametro, "utf-8", (error,data)=>{
 });
 
 //usar con npm start ruta
-// ejemplo npm start ./Hola.txt
+// ejemplo npm start Hola.txt
 
 
